@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144">
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <h1>Contact Us</h1>
+
+  <form name="contactForm" method="POST" action="mailto:obedyyair@gmail.com">
+    <fieldset>
+      <legend>Contact Information</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <label>Preferred Contact Method:</label>
+      <input type="radio" id="contact-method-email" name="contact-method" value="email" checked>
+      <label for="contact-method-email">Email</label>
+      <input type="radio" id="contact-method-phone" name="contact-method" value="phone">
+      <label for="contact-method-phone">Phone</label>
+
+      <label>Reason:</label>
+      <input type="checkbox" id="interest1" name="interest[]" value="Option 1">
+      <label for="interest1">Software Development</label>
+      <input type="checkbox" id="interest2" name="interest[]" value="Option 2">
+      <label for="interest2">Music</label>
+      <input type="checkbox" id="interest3" name="interest[]" value="Option 3">
+      <label for="interest3">Other</label>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="mexico">Mexico</option>
+        <option value="canada">Canada</option>
+      </select>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+
+  <h1>Life Events and Milestones</h1>
+  <table>
+    <caption>Past, Present, and Future</caption>
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Event</th>
+        <th scope="col">Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">August 12, 2022</th>
+        <td>Started College</td>
+        <td>Dallas</td>
+      </tr>
+      <tr>
+        <th scope="row">May 30, 2024</th>
+        <td>Graduation Ceremony</td>
+        <td>Dallas</td>
+      </tr>
+      <tr>
+        <th scope="row">June 30, 2025</th>
+        <td>Birthday Celebration</td>
+        <td>San Francisco</td>
+      </tr>
+      <tr>
+        <th scope="row">August 10, 2025</th>
+        <td>Family Reunion</td>
+        <td>Miami</td>
+      </tr>
+      <tr>
+        <th scope="row">October 20, 2026</th>
+        <td>Retirement Party</td>
+        <td>Chicago</td>
+      </tr>
+    </tbody>
+  </table>
+
+        <footer>
+            <nav>
+              <ul>
+                <li><a href="https://www.dcccd.edu">Dallas College</a></li>
+              </ul>
+            </nav>
+            <p><a href="mailto:obedyyair@gmail.com">Contact Webmaster</a></p>
+            <p>&copy; 2023 Obed Salas. All rights reserved.</p>
+          </footer>
+        </body>
+</html>

@@ -1,0 +1,39 @@
+/* Default background color for structural elements */
+header, footer, aside, nav {
+    background-color: #3f695e;
+  }
+  
+  /* Default styles for h1-h6 and p elements */
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Pseudo-styles for links */
+  a:link {
+    color: rgb(196, 255, 226);
+  }
+  
+  a:visited {
+    color: rgb(161, 235, 183);
+  }
+  
+  a:hover {
+    color: rgb(251, 255, 0);
+  }
+  
+  /* Styles for a class */
+  .my-class {
+    font-style: italic;
+  }
+  
+  /* Table styles */
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+td, th {
+  padding: 10px;
+}
