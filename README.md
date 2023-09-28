@@ -1,5 +1,5 @@
 # my_avatar_website
-my_avatar_website Assignment Files
+my_avatar_website - Assignment files
 
 Coursework Repository for Web Design Tools 
 
